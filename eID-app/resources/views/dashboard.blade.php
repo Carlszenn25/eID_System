@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,14 +54,14 @@
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
     <form method="POST" action="{{ route('logout') }}">
-      @csrf
-
-      <x-dropdown-link :href="route('logout')"
-              onclick="event.preventDefault();
-                          this.closest('form').submit();">
-          {{ __('Log Out') }}
-      </x-dropdown-link>
-  </form>
+        @csrf
+  
+        <x-dropdown-link :href="route('logout')"
+                onclick="event.preventDefault();
+                            this.closest('form').submit();">
+            {{ __('Log Out') }}
+        </x-dropdown-link>
+    </form>
     <!-- Control sidebar content goes here -->
   </aside>
   <!-- /.control-sidebar -->

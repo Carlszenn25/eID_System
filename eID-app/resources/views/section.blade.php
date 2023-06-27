@@ -1,4 +1,11 @@
 <!-- Content Header (Page header) -->
+
+<style>
+  .content-header {
+    background-color: rgb(246, 185, 35);
+  }
+</style>
+
 <div class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">

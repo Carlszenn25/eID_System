@@ -32,7 +32,7 @@
 
   <!-- Preloader -->
   <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__shake" src="dist/img/rntvs_logo.png" alt="AdminLTELogo" height="200" width="200">
+    <img  src="dist/img/rntvs_logo.png"  height="200" width="200">
   </div>
   
   <!-- Navbar -->
@@ -49,7 +49,7 @@
   </div>
   <!-- /.content-wrapper -->
 
-  @include('footer')
+  
   
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
